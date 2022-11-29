@@ -1,0 +1,69 @@
+body {
+    padding: 0px;
+    background: yellow
+}
+
+button {
+    width: 100%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: grey;
+    border: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    animation-name: slide-in;
+    animation-duration: 3s;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    height: 40px;
+    background: white;
+    margin-top: 0px;
+    border-radius: 50px;
+    align-items: center;
+    padding: 20px;
+    word-spacing: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+@keyframes slide-in {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes puff-out {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
